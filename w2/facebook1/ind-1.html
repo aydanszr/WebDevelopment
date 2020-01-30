@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Facebook</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <div class='title'>
+                <p>facebook</p>
+            </div>
+
+            <div class='login'>
+                <form id='login' action='/login.php'>
+                    <div class='email input'>
+                        <label for='email-or-phone'>электронный адрес или номер телефона</label><br>
+                        <input id='email-or-phone' type='text' name='email-or-phone' required>
+                    </div>
+
+                    <div class='password input'>
+                        <label for='password'>пароль</label><br>
+                        <input id='pword' type='text' name='password' required>
+                        <p><a id='remember' href='#'>забыли пароль?</a></p>
+                    </div>
+
+                    <div class='submit'>
+                        <input id='enter' type="button" value='вход'>
+                    </div>
+                </form>
+            </div>
+
+        </header>
+
+        <div class='content'>
+            <div id='left'>
+                <div>  
+                    <p>facebook помогает вам всегда оставаться 
+                        на связи и обащаться со своими знакомыми</p>
+                     <br><br>
+                    <img src="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/7XdR1KwCifL.png" width="550">
+                </div>
+            </div>
+
+            <div id='right'>
+                <div class='heading'>
+                    <h1>регистрация</h1>
+                    <p>это бесплатно и всегда будет бесплатно</p>
+                </div>
+                
+                <div class='sign-up'>
+                    <form  id='sign-up' action='/sign-up.php'></form>
+                        <input id='name' type='text' name='name' placeholder='имя' required>
+                        <input id ='surname' type='text' name='surname' placeholder='фамилия' required>
+                        <br>
+                        <input id='email' type='text' name='email' 
+                        placeholder='номер мобильного телефона или эл. адрес' required>
+                        <br>
+                        <input id='password' type='text' name='password' placeholder='новый пароль' required>
+                        <br>
+                    <select name="day" id="day">
+                        <option value="day">День</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                    <select name="month" id="month">
+                        <option value="month">Месяц</option>
+                        <option>янв</option>
+                        <option>фев</option>
+                        <option>мар</option>
+                        <option>апр</option>
+                        <option>май</option>
+                        <option>июн</option>
+                        <option>июл</option>
+                        <option>авг</option>
+                        <option>сен</option>
+                        <option>окт</option>
+                        <option>ноя</option>
+                        <option>дек</option>
+                    </select>
+                    <select name="year" id="year">
+                        <option value="year">Год</option>
+                        <option>2010</option>
+                        <option>2009</option>
+                        <option>2008</option>
+                        <option>2007</option>
+                        <option>2006</option>
+                        <option>2005</option>
+                        <option>2004</option>
+                        <option>2003</option>
+                        <option>2002</option>
+                        <option>2001</option>
+                        <option>2000</option>
+                        <option>1999</option>
+                        <option>1998</option>
+                        <option>1997</option>
+                        <option>1996</option>
+                        <option>1995</option>
+                        <option>1994</option>
+                        <option>1993</option>
+                        <option>1992</option>
+                        <option>1991</option>
+                        <option>1990</option>
+                    </select>
+                    
+                        <input id='female' type='radio' name='gender' value='female'>
+                        <label for='female'>Женщина</label>
+
+                        <input id='male' type='radio' name='gender' value='male'>
+                        <label for='male'>мужчина</label>
+
+                        <p>нажимая кнопку регистрация, вы принмаете <a href='#'>условия</a>,
+                            <a href='#'>политику использования данных</a> и 
+                            <a href='#'>политику в отношении файлов cookie</a>. вы можете
+                            получать от нас SMS-уведомления, отказаться от которых можно
+                            в любой момент.
+                        </p>
+
+                        <input id='register' type='button' value='Регистрация'>
+                    </form>
+                </div>
+
+                <div class='create-group'>
+                    <p><a href='#'>создать страницу</a> знаменитости, музыкальной группы
+                    или компании.</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class='footer'>
+                <div class='lang'>
+                        <ol>
+                            <li><a href='#'>русский</a></li>
+                            <li><a href='#'>казахский</a></li>
+                            <li><a href='#'>английский</a></li>
+                            <li><a href='#'>немецкий</a></li>
+                            <li><a href='#'>китайский</a></li>
+                            <li><a href='#'>турецкий</a></li>
+                            <li><a href='#'>французский</a></li>
+                            <li><a href='#'>испанский</a></li>
+                            <li><a href='#'>итальянский</a></li>
+                            <li><a href='#'>корейский</a></li>
+                            <li><a href='#'>японский</a></li>
+                        </ol>
+        
+                        <input type='button' value='+'>
+                    </div>
+                    
+                    <hr>
+        
+                    <div class='options'>
+                        <ol>
+                            <li><a href='#'>русский</a></li>
+                            <li><a href='#'>казахский</a></li>
+                            <li><a href='#'>английский</a></li>
+                            <li><a href='#'>немецкий</a></li>
+                            <li><a href='#'>китайский</a></li>
+                            <li><a href='#'>турецкий</a></li>
+                            <li><a href='#'>французский</a></li>
+                            <li><a href='#'>испанский</a></li>
+                            <li><a href='#'>итальянский</a></li>
+                            <li><a href='#'>корейский</a></li>
+                            <li><a href='#'>японский</a></li>
+                        </ol>
+                    </div>
+        
+                    <div class='facebook'>
+                        <p>facebook (c) 2020</p>
+                    </div>
+            </div>
+            
+        </footer>
+    </body>
+</html>
