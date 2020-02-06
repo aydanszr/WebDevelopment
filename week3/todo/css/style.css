@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+.logo{
+    background-color: black;
+    padding: 50px 40px;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace
+    
+}
+
+.input{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace
+}
+.add-btn{
+    color: white;
+    background-color: grey;
+    float: right;
+    height: 50px;
+    width: 100px;
+    margin-left: 1140px;
+    position: absolute;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace
+    
+}
+.add-btn:hover {
+    background-color: #bbb;
+  }
+
+#list{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 260px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: 0.2s;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace
+}
+#list.checked{
+    color: #fff;
+    text-decoration: line-through;
+}
+
+#list.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+#input-text{
+    float: left;
+    position: absolute;
+    height: 50px;
+    width: 60%;
+    margin-left: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace
+}
